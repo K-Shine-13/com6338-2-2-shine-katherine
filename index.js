@@ -23,7 +23,7 @@ var questionsArr = [
 
 function runQuiz () {
     //Create object to store number of correct answers
-    let correctAns = 0;
+    var correctAns = 0;
 
     // Use a for loop to prompt the user with questions and keep score of the number of correct responses
     for(var i=0; i < questionsArr.length; i++) {
